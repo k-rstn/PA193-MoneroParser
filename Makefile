@@ -14,5 +14,5 @@ clean:
 test:
 	make -C $(TEST_DIR)
 	echo "\n## Running tests...\n"
-	$(TEST_DIR)/sample1_unittest
+	$(TEST_DIR)/testable_test
 

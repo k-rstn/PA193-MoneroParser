@@ -13,6 +13,6 @@ clean:
 .PHONY: test
 test:
 	make -C $(TEST_DIR)
-	echo "\n## Running tests...\n"
-	$(TEST_DIR)/testable_test
+	# echo "\n## Running tests...\n"
+	# $(TEST_DIR)/testable_test
 

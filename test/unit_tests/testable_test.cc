@@ -3,8 +3,8 @@
 namespace {
 
 TEST(Testable, ReturnsZero) {
-  // This test is named "Negative", and belongs to the "FactorialTest"
-  // test case.
+  // Testable = Test case (group of tests)
+  // ReturnsZero = Test name
   EXPECT_EQ(returnZero(), 0);
 }
 
